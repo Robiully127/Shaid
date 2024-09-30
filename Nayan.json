@@ -7,17 +7,17 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "nayan-bot",
+  "BOTNAME": "Robiul Islam",
   "PREFIX": "/",
   "OPERATOR": [
     "100014896964436",
-    "100000959749712"
+    "100093774930731"
   ],
   "ADMINBOT": [
-    "100000959749712",
+    "100093774930731",
     ""
   ],
-  "OWNER": ["100000959749712"], 
+  "OWNER": ["100093774930731"], 
   "APPROVED": [],
   "disabledcmds": [],
   "disabledevents": [],
