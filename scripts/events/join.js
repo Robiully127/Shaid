@@ -68,13 +68,13 @@ AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR
 
 DEVELOPER : Robiul Islam 
 
-🟣Facebook Account Link:https://www.facebook.com/profile.php?id=100093774930731&mibextid=kFxxJD 
+🟣Facebook Account Link: 
 
-https:https://www.facebook.com/profile.php?id=100093774930731&mibextid=kFxxJD
+https://www.facebook.com/www.xnxx.com169
 
-🔵WHATSAPP NUMBER: wa.me/+8801887267477
+🔵WHATSAPP NUMBER: wa.me/+8801615298449
 
-🟢SUPPORT EMAIL: robiullslam1021x@gmail.com, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
