@@ -20,7 +20,7 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
   const request = global.nodemodule["request"];
   const fs = global.nodemodule["fs-extra"];
 
-  var hi = ["--যারা ফুলকে ভালোবাসে তারা নিজেরাই এক একটা ফুল 💕🌸 --Robiul-𝐈𝐬𝐥𝐚𝐦--"];
+  var hi = ["--রবিউল বস পক্ষ থেকে সবাইকে I love you 🤭🙉 --Robiul-𝐈𝐬𝐥𝐚𝐦--"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [   
     "https://i.imgur.com/AXz2TkI.mp4",
@@ -30,8 +30,8 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
     "https://i.imgur.com/GkYPtWg.mp4",
     "https://i.imgur.com/qBq5KE5.mp4",
     "https://i.imgur.com/K70lPmy.mp4",
-    "",
-    "",
+    "https://i.imgur.com/vHxRmo6.mp4",
+    "https://i.imgur.com/pqQncvO.mp4",
   ];
 
   var callback = () => {
