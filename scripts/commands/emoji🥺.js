@@ -4,6 +4,10 @@ const request = require("request");
 
 const link = [
   "https://i.imgur.com/svnfHlO.mp4",
+  "https://i.imgur.com/9ZSlSuB.mp4",
+  "https://i.imgur.com/XtMMo6T.jpeg",
+  "https://i.imgur.com/qwztROV.mp4",
+  
 
 ];
 
