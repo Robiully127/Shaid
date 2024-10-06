@@ -29,7 +29,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
   const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-  if (body.startsWith("💔")) {
+  if (body.startsWith("😻")) {
     const rahad = [
       "•┄┅════❁🌺❁════┅┄•\n\n-ROBIUL KING ...!!😻✨🥀\n\n•┄┅════❁🌺❁════┅┄•",
       "•┄┅════❁🌺❁════┅┄•\n\n-ROBIUL KING...!!😻✨🥀\n\n•┄┅════❁🌺❁════┅┄•"
