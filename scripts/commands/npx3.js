@@ -28,7 +28,7 @@ const media = (
 
 	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "🖤🥀",
+				body: "রবিউল বসের পক্ষ থেকে সবাইকেI LOVE YOU 🥰",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
