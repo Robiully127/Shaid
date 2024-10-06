@@ -19,14 +19,15 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/Yc2atQe.mp4',
+      'https://i.imgur.com/cgoacAc.mp4',
+      "https://i.imgur.com/BcDJZte.mp4",
       { responseType: 'stream' }
     )
   ).data;
 
 	if (body.indexOf("Love")==0 || body.indexOf("❤️‍🔥")==0 || body.indexOf("💌")==0 || body.indexOf("💘")==0 || body.indexOf("💟")==0 || body.indexOf("I love u")==0 || body.indexOf("I love you")==0 || body.indexOf("valobashi")==0 || body.indexOf("Valobashi")==0 || body.indexOf("🖤")==0) {
 		var msg = {
-				body: "ভালোবাসা সুন্দর🖤",
+				body: "রবিউল বসের পক্ষ থেকে সবাইকেI love you 🫣",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
