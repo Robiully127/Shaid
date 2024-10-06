@@ -1,12 +1,12 @@
 module.exports.config = {
-  name: "photo",
+  name: "pk",
   version: "1.0.0",
   permission: 0,
   credits: "farhan",
-  description: "Random photo",
+  description: "Random pk",
   prefix: true,
   category: "Media",
-  usages: "photo",
+  usages: "pk",
   cooldowns: 5,
   dependencies: {
     "axios": "",
