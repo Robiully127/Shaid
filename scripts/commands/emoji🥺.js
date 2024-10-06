@@ -3,10 +3,10 @@ const fs = require("fs");
 const request = require("request");
 
 const link = [
-  "https://i.imgur.com/svnfHlO.mp4",
-  "https://i.imgur.com/9ZSlSuB.mp4",
-  "https://i.imgur.com/XtMMo6T.jpeg",
-  "https://i.imgur.com/qwztROV.mp4",
+  "https://i.imgur.com/r84kmES.mp4",
+  "https://i.imgur.com/IrHQhM2.mp4",
+  "https://i.imgur.com/T3gnRGH.mp4",
+  "https://i.imgur.com/lt7XutD.mp4",
   
 
 ];
