@@ -10,14 +10,14 @@ const link = [
 ];
 
 module.exports.config = {
-  name: "Robiul",
+  name: "robiul",
   version: "1.0.0",
   permssion: 0,
   credits: "Islamick Cyber Chat",
   prefix:true,
-  description: "auto reply to Robiul",
+  description: "auto reply to robiul",
   category: "noprefix",
-  usages: "Robiul",
+  usages: "robiul",
   cooldowns: 5,
   dependencies: {
     "request":"",
@@ -29,10 +29,10 @@ module.exports.config = {
 module.exports.handleEvent = async ({ api, event, Threads }) => {
   const content = event.body ? event.body : '';
     const body = content.toLowerCase();
-  if (body.startsWith("Robiul")) {
+  if (body.startsWith("robiul")) {
     const rahad = [
-      "•┄┅════❁🌺❁════┅┄•\n \n বসের দিকে নজর দিবি না  -!!🥰\n\n•┄┅════❁🌺❁════┅┄•",
-      "•┄┅════❁🌺❁════┅┄•\n\nরবিউল বস অনেক কিউট একটা পোলা-!!🥰\n\n•┄┅════❁🌺❁════┅┄•"
+      "•┄┅════❁🌺❁════┅┄•\n \n Robiul King -!!👑\n\n•┄┅════❁🌺❁════┅┄•",
+      "•┄┅════❁🌺❁════┅┄•\n\Robiul king-!!👑\n\n•┄┅════❁🌺❁════┅┄•"
 
     ];
     const rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
@@ -52,7 +52,7 @@ module.exports.languages = {
   "vi": {
     "on": "Dùng sai cách rồi lêu lêu",
     "off": "sv ngu, đã bão dùng sai cách",
-    "successText": `Robiul`,
+    "successText": `🤪`,
   },
   "en": {
     "on": "on",
@@ -64,9 +64,9 @@ module.exports.languages = {
 module.exports.run = async ({ api, event, Threads, getText }) => {
   const { threadID, messageID } = event;
   let data = (await Threads.getData(threadID)).data;
-  if (typeof data["Robiul"] === "undefined" || data["Robiul"]) data["Robiul"] = false;
-  else data["Robiul"] = true;
+  if (typeof data["ROBIUL"] === "undefined" || data["robiul"]) data["robiul"] = false;
+  else data["মেয়ে"] = true;
   await Threads.setData(threadID, { data });
   global.data.threadData.set(threadID, data);
-  api.sendMessage(`${(data["Robiul"]) ? _getText("off") : getText("on")} ${getText("successText")}`, threadID,_ messageID);
+  api.sendMessage(`${(data["🥰"]) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
 };
