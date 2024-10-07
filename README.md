@@ -1,71 +1,101 @@
-## ABOUT ME
-
-name : ```Nayan Developer```</br>
-age : ```20```</br>
-link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
-
-## CREDITS
-
-original file : [BotPack](https://replit.com/@YanMaglinte/BotPack?v=1) by ```YanMaglinte```</br>
-modified : [NAYAN](https://replit.com/@xaikonayan/NAYAN-BOT?v=1) by ```Nayan Developer```
-
-## CONFIG AND CUSTOM
-
-Nayan.js : ``configure auto restart and auto accept pending messages.``</br>
-Nayan.json : ``configure bot name, bot prefix, bot operators and admins, appstate save``</br>
-Nayanstate.json : ``account cache data.``</br>Nayan/configs/Nayan.json : ``Set Your Bot Id Email Password``
-
-## BOX APPROVAL
-
-``box approval`` is set as default, you can disable it on ``Nayan.json`` by setting the ``approval`` value into ``false``</br>
-
-you can approve box by using ``approve`` command without using prefix, how to use? just type ``approve (box/remove) (uid/tid)``</br>
-
-EXAMPLES : </br>
-
-view approved list 
-```txt 
-approve list
-```
-add box from approved list 
-```txt
-approve box 4834812366643016
-```
-remove box from approved list 
-```txt
-approve remove 4834812366643016
-```
-
-## Login System
-
-If you want to login with an email password, go to Nayan/configs/Nayan.json and set your email password ``email``, ``password`` value
-
-If You Use fbstate go to ``Nayanstate.json`` and past fbstate
-
-if you run use ``email`` and ``password``, use Nayan.json(``saveState:false``); otherwise, use Nayan.json(``saveState:true``)
-
-## HOW TO GET 'NayanSTATE.JSON' DATA?
-
-to get ``Nayanstate.json`` data, please follow these steps :</br>
-
-step 1 : download fbstate exporter [here](https://drive.google.com/uc?id=1SFsFP_VhMyPg6JpqJtpqnjAr2kiKD7tl)</br>
-
-step 2 : download ``kiwi browser`` from the play store.</br>
-
-step 3 : open kiwi browser and tap on the three dots at the top right corner.</br>
-
-step 4 : select ``extensions`` from the menu.</br>
-
-step 5 : tap on ``+ from (.zip/ .crx/ .user.js)`` and choose the file "fbstate_exporter-1.0.xpi (1).zip" that you downloaded.</br>
-
-step 6 : once the extension is added, go to ``www.facebook.com`` and log in to the account you want to use as a bot.</br>
-
-step 7 : after logging in, tap on the three dots again and scroll down to find the fbstate exporter.</br>
-
-step 8 : click on it and then click on ``copy fbstate``.</br>
-
-step 9 : paste the copied data into the ``Nayanstate.json`` file.</br>
-
-step 10 : finally, click on ``run`` to initiate the bot.</br>
-
-
+[
+    {
+        "key": "datr",
+        "value": "M5kDZ6M0uqgukxJBSVDnY2bp",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.062Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "sb",
+        "value": "M5kDZxgdRawiNV0B5kEvFQY0",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.071Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61566763566725",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.071Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "fr",
+        "value": "08MpazJI3ggIeZmuz.AWWEPwEoY_87apbOoc3Ugab8TBc.BnA5kz..AAA.0.0.BnA5lt.AWW_uglhsrE",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.071Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "xs",
+        "value": "35%3Ah5_W7y6ssKHe1A%3A2%3A1728289141%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.071Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "m_page_voice",
+        "value": "61566763566725",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.071Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "wd",
+        "value": "549x1035",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.071Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.071Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "100622516%3BT%3A28804819",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.071Z",
+        "lastAccessed": "2024-10-07T08:25:23.071Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B1034x549x1.3125",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.072Z",
+        "lastAccessed": "2024-10-07T08:25:23.072Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2641%3Btimestamp%3A1728289174%3BCRCM%3A381703396",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-07T08:25:23.072Z",
+        "lastAccessed": "2024-10-07T08:25:23.072Z"
+    }
+]
