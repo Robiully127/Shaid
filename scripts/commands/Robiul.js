@@ -52,7 +52,7 @@ module.exports.languages = {
   "vi": {
     "on": "Dùng sai cách rồi lêu lêu",
     "off": "sv ngu, đã bão dùng sai cách",
-    "successText": `🥰`,
+    "successText": `Robiul`,
   },
   "en": {
     "on": "on",
@@ -65,8 +65,8 @@ module.exports.run = async ({ api, event, Threads, getText }) => {
   const { threadID, messageID } = event;
   let data = (await Threads.getData(threadID)).data;
   if (typeof data["Robiul"] === "undefined" || data["Robiul"]) data["Robiul"] = false;
-  else data["ছেলে"] = true;
+  else data["Robiul"] = true;
   await Threads.setData(threadID, { data });
   global.data.threadData.set(threadID, data);
-  api.sendMessage(`${(data["🥰"]) ? _getText("off") : getText("on")} ${getText("successText")}`, threadID,_ messageID);
+  api.sendMessage(`${(data["Robiul"]) ? _getText("off") : getText("on")} ${getText("successText")}`, threadID,_ messageID);
 };
