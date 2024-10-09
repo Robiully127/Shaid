@@ -103,7 +103,7 @@ async function video(api, event, args, message) {
 module.exports = {
     config: {
         name: "sing", 
-        version: "1.0",
+        version: "1.0.0",
         author: "Vex_Kshitiz",
         countDown: 10,
         role: 0,
