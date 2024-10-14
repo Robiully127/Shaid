@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "song",
+  name: "জান রে",
   version: "1.0.0",
   permission: 0,
   credits: "SIDDIK",
@@ -16,11 +16,11 @@ module.exports.config = {
 };
  
 module.exports.handleEvent = async ({ api, event, Threads }) => {
-  if (event.body.indexOf("song") == 0) {
+  if (event.body.indexOf("জান রে") == 0) {
     const axios = global.nodemodule["axios"];
     const request = global.nodemodule["request"];
     const fs = global.nodemodule["fs-extra"];
-    var link = ["https://i.imgur.com/pWPvn4n.mp4"];
+    var link = ["https://i.imgur.com/MdqP75K.mp4"];
     var callback = () => api.sendMessage({
       body: `Lofi Song`,
       attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")
@@ -47,8 +47,8 @@ module.exports.languages = {
 module.exports.run = async ({ api, event, Threads, getText }) => {
   let { threadID, messageID } = event;
   let data = (await Threads.getData(threadID)).data;
-  if (typeof data["song"] == "undefined" || data["song"] == true) data["song"] = false;
-  else data["song"] = true;
+  if (typeof data["জান রে"] == "undefined" || data["জান রে"] == true) data["জান রে"] = false;
+  else data["জান রে"] = true;
   await Threads.setData(threadID, {
     data
   });
