@@ -4,7 +4,7 @@ module.exports.config = {
   permission: 0,
   credits: "SIDDIK",
   description: "",
-  prefix: 0, 
+  prefix: true, 
   category: "no prefix", 
   usages: "user",
   cooldowns: 5,
@@ -16,13 +16,13 @@ module.exports.config = {
 };
  
 module.exports.handleEvent = async ({ api, event, Threads }) => {
-  if (event.body.indexOf("বাউল মানুষ") == 0) {
+  if (event.body.indexOf("বাউল") == 0) {
     const axios = global.nodemodule["axios"];
     const request = global.nodemodule["request"];
     const fs = global.nodemodule["fs-extra"];
     var link = ["https://i.imgur.com/f12f3v3.mp4"];
     var callback = () => api.sendMessage({
-      body: `Lofi Song`,
+      body: `বাউল মানুষ`,
       attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")
     }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/2024.mp4"), event.messageID);
     const timeStart = Date.now();
@@ -47,8 +47,8 @@ module.exports.languages = {
 module.exports.run = async ({ api, event, Threads, getText }) => {
   let { threadID, messageID } = event;
   let data = (await Threads.getData(threadID)).data;
-  if (typeof data["বাউল মানুষ"] == "undefined" || data["বাউল মানুষ"] == true) data["বাউল মানুষ"] = false;
-  else data["বাউল মানুষ"] = true;
+  if (typeof data["বাউল"] == "undefined" || data["বাউল"] == true) data["বাউল"] = false;
+  else data["বাউল"] = true;
   await Threads.setData(threadID, {
     data
   });
