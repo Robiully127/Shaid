@@ -1,11 +1,11 @@
 module.exports.config = {
-  name: "বাউল মানুষ",
+  name: "বাউল",
   version: "1.0.0",
   permission: 0,
-  credits: "SIDDIK",
+  credits: "ROBIUL",
   description: "",
   prefix: true, 
-  category: "no prefix", 
+  category: "prefix", 
   usages: "user",
   cooldowns: 5,
   dependencies: {
