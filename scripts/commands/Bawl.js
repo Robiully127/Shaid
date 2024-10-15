@@ -20,7 +20,7 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
     const axios = global.nodemodule["axios"];
     const request = global.nodemodule["request"];
     const fs = global.nodemodule["fs-extra"];
-    var link = ["https://i.imgur.com/MdqP75K.mp4"];
+    var link = ["https://i.imgur.com/8n11KYQ.mp4"];
     var callback = () => api.sendMessage({
       body: `baol`,
       attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")
