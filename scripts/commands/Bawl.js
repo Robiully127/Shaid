@@ -1,11 +1,11 @@
 module.exports.config = {
-  name: "বাউল",
+  name: "baol",
   version: "1.0.0",
   permission: 0,
   credits: "ROBIUL",
   description: "",
   prefix: true, 
-  category: "prefix", 
+  category: "no prefix", 
   usages: "user",
   cooldowns: 5,
   dependencies: {
@@ -16,13 +16,13 @@ module.exports.config = {
 };
  
 module.exports.handleEvent = async ({ api, event, Threads }) => {
-  if (event.body.indexOf("বাউল") == 0) {
+  if (event.body.indexOf("baol") == 0) {
     const axios = global.nodemodule["axios"];
     const request = global.nodemodule["request"];
     const fs = global.nodemodule["fs-extra"];
-    var link = ["https://i.imgur.com/f12f3v3.mp4"];
+    var link = ["https://i.imgur.com/MdqP75K.mp4"];
     var callback = () => api.sendMessage({
-      body: `বাউল মানুষ`,
+      body: `baol`,
       attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")
     }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/2024.mp4"), event.messageID);
     const timeStart = Date.now();
@@ -47,11 +47,11 @@ module.exports.languages = {
 module.exports.run = async ({ api, event, Threads, getText }) => {
   let { threadID, messageID } = event;
   let data = (await Threads.getData(threadID)).data;
-  if (typeof data["বাউল"] == "undefined" || data["বাউল"] == true) data["বাউল"] = false;
-  else data["বাউল"] = true;
+  if (typeof data["baol"] == "undefined" || data["baol"] == true) data["baol"] = false;
+  else data["baol"] = true;
   await Threads.setData(threadID, {
     data
   });
   global.data.threadData.set(threadID, data);
-  api.sendMessage(`${(data["song"] == false) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
+  api.sendMessage(`${(data["baol"] == false) ? getText("off") : getText("on")} ${getText("successText")}`, threadID, messageID);
 };
