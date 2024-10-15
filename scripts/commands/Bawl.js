@@ -4,7 +4,7 @@ module.exports.config = {
   permission: 0,
   credits: "SIDDIK",
   description: "",
-  prefix: true, 
+  prefix: 0, 
   category: "no prefix", 
   usages: "user",
   cooldowns: 5,
